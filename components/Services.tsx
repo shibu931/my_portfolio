@@ -29,7 +29,7 @@ const Services = () => {
     <div className="bg-white dark:bg-slate-800 dark:border-purple-950/25 shadow-md border rounded p-5">
     <div className="flex lg:justify-between flex-col lg:flex-row">
       <h2 className="text-xl font-bold uppercase font-orbitron tracking-wider">
-        Service's I Offer
+        Service&apos;s I Offer
       </h2>
       <a
         href={allLinks.service.href}
@@ -41,7 +41,7 @@ const Services = () => {
     <div className="mt-3 sm:mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {
             services.map(({title,iconDark,iconLight})=>(
-                <ServiceCard title={title} iconDark={iconDark} iconLight={iconLight}/>
+                <ServiceCard key={title} title={title} iconDark={iconDark} iconLight={iconLight}/>
             ))
         }
     </div>

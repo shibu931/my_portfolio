@@ -32,11 +32,11 @@ const ProfileDock = () => {
           <TextGenerateEffect words="Hey, I'm Shippu Kumar" />
         </h1>
         <p className="text-base text-gray-700 dark:text-gray-400">
-          I'm a passionate <strong>Full-Stack developer</strong> with{" "}
+          I&apos;m a passionate <strong>Full-Stack developer</strong> with{" "}
           <strong>15+ technologies</strong> under my belt. I love turning
           creative ideas into real, functional
           <strong> digital products</strong> that go above and beyond what
-          clients expect. Let's work together and bring your vision to life!
+          clients expect. Let&apos;s work together and bring your vision to life!
         </p>
       </div>
       <div className="mt-4 ps-1 flex items-center">

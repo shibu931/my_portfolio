@@ -8,7 +8,6 @@ import VideoIntro from "@/components/VideoIntro";
 import { allLinks } from "@/data";
 import { MessageSquare } from "lucide-react";
 import Link from "next/link";
-import { FaLink } from "react-icons/fa";
 
 export default function Home() {
   return (

@@ -1,8 +1,5 @@
-import { label } from "motion/react-client";
 import {
     css,
-    express,
-    git,
     github,
     html,
     javascript,
@@ -131,3 +128,34 @@ export const allLinks ={
         href:'/contact'
     }
 }
+
+export const projects = [
+    {
+      title: "Anabolichub",
+      description: "Developed a robust e-commerce platform for steroids, featuring seamless user experience.",
+      image: "p1.svg",
+      link: "https://anabolichub.com",
+      technologies: ["", ""],
+    },
+    {
+      title: "Leemart - Brand Page",
+      description: "Designed a sleek and SEO-friendly landing page for an RO water purifier brand, ensuring a strong online presence.",
+      image: "p2.svg",
+      link: "https://leemart.co.in",
+      technologies: ["", ""],
+    },
+    {
+      title: "StayInMukteshwar",
+      description: "Built a visually appealing and responsive landing page for a guest house, enhancing booking conversions.",
+      image: "p4.svg",
+      link: "https://stayinmukteshwar.com",
+      technologies: ["", ""],
+    },
+    {
+      title: "Imaginify",
+      description: "Built a SaaS application for AI-powered image editing, offering advanced tools for seamless and efficient enhancements..",
+      image: "p3.svg",
+      link: "https://anabolichub.com",
+      technologies: ["", ""],
+    },
+];

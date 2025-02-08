@@ -1,13 +1,12 @@
-import Image from "next/image";
 import Link from "next/link";
 import { FiExternalLink } from "react-icons/fi";
 
 interface Project {
   title: string;
   description: string;
-  image: string; // Path to the image
-  link?: string; // Optional link to the project
-  technologies?: string[]; // Optional array of technologies used
+  image: string; 
+  link?: string; 
+  technologies?: string[]; 
 }
 
 const ProjectCard: React.FC<Project> = ({
@@ -31,6 +30,9 @@ const ProjectCard: React.FC<Project> = ({
             {title}
           </h3>
           <p className="text-gray-600 dark:text-gray-400 mb-4 text-sm">{description}</p>
+          {technologies && technologies.map((tech)=>(
+            <span key={tech}>{tech}</span>
+          ))}
         </div>
         {link && (
           <Link

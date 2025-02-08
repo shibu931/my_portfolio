@@ -19,7 +19,7 @@ const Timeline = ({ experiences }: TimelineProps) => {
     <>
       <ol className="relative border-s-[2px] pe-2 border-slate-900/50">
         {experiences.map(({ company, title, img, year, description,isNew },index) => (
-          <li className={`ms-6 border-b-4 rounded-xl dark:border-slate-900/50 border-purple-600/25 ${
+          <li key={index} className={`ms-6 border-b-4 rounded-xl dark:border-slate-900/50 border-purple-600/25 ${
             index === experiences.length - 1 ? 'mb-5' : 'mb-10'
           }`}>
             <span className="absolute flex items-center border dark:border-gray-400/30 justify-center w-12 h-12 bg-blue-100 rounded-full -start-6 ring-1 ring-white dark:ring-gray-900">
