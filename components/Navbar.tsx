@@ -5,10 +5,7 @@ import {
   Drawer,
   DrawerClose,
   DrawerContent,
-  DrawerDescription,
   DrawerFooter,
-  DrawerHeader,
-  DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
 import { FaBriefcase, FaHome, FaLightbulb, FaUser } from "react-icons/fa";
@@ -76,8 +73,8 @@ function MobileNav() {
         <nav>
           <ul className="mt-4 flex flex-col space-y-2">
             {navigationItems.map(({ href, label, icon:Icon }) => (
-              <DrawerClose>
-                <li key={href} >
+              <DrawerClose key={href}>
+                <li>
                   <Link
                     className="transition-all duration-200 hover:bg-violet-600/10 px-3 py-1 rounded-sm text-base dark:text-slate-200 tracking-widest inline-flex items-center uppercase font-medium"
                     href={href}
