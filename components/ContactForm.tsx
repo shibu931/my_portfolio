@@ -2,8 +2,8 @@ import { Label } from "./ui/label";
 
 const ContactForm = () => {
   return (
-        <div className="bg-neutral-100 dark:bg-slate-700 shadow-lg max-w-xl p-6 rounded-2xl">
-          <form id="contactForm" className="space-y-6">
+        <div className="bg-neutral-100 dark:bg-slate-700 shadow-lg max-w-xl p-6 rounded-md">
+          <form id="contactForm" className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-base font-medium text-neutral-700 dark:text-neutral-200 mb-2" >Name <span className="text-red-600 text-xl">&#42;</span></label>

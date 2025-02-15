@@ -14,7 +14,7 @@ import {
 
 const ProfileDock = () => {
   return (
-    <div className="bg-white dark:bg-slate-800 dark:border-purple-950/25 shadow-md border rounded p-4 sticky top-[70px]">
+    <div className="bg-white dark:bg-slate-800 dark:border-purple-950/25 shadow-md border rounded p-4 sticky top-[70px] h-full">
       <div className="rounded shadow mb-4 border w-full relative h-[280px] dark:border-purple-950/25 overflow-hidden">
         <BackgroundGradientAnimation />
         <div className="absolute w-full h-full flex justify-center p-2 pb-0">
