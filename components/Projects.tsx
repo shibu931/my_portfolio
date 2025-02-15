@@ -10,7 +10,7 @@ const Projects = () => {
           Recent Projects
         </h2>
         <a
-          href=""
+          href="#"
           className="tracking-wide text-violet-400 underline underline-offset-2"
         >
           All Projects

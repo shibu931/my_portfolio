@@ -8,7 +8,7 @@ import {
   DrawerFooter,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-import { FaBriefcase, FaHome, FaLightbulb, FaUser } from "react-icons/fa";
+import { FaBriefcase, FaHome, FaLightbulb, FaTools, FaUser } from "react-icons/fa";
 import { MenuIcon } from "lucide-react";
 
 const navigationItems = [
@@ -19,13 +19,13 @@ const navigationItems = [
   },
   {
     icon:FaBriefcase,
-    href: "/services",
+    href: "#services",
     label: "Services",
   },
   {
-    icon:FaLightbulb,
-    href: "/portfolio",
-    label: "Portfolio",
+    icon:FaTools,
+    href: "#skills",
+    label: "Skills",
   },
   {
     icon:FaUser,

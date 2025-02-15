@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Skills = () => {
   return (
-    <div className="bg-white dark:bg-slate-800 dark:border-purple-950/25 shadow-md border rounded p-5">
+    <div className="bg-white dark:bg-slate-800 dark:border-purple-950/25 shadow-md border rounded p-5" id="skills">
       <h2 className="text-xl font-bold uppercase font-orbitron tracking-wider">
         My Skills
       </h2>

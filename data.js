@@ -121,7 +121,11 @@ export const skills = [
 export const allLinks ={
     service:{
         label:'See All Services',
-        href:'/services'
+        href:'#'
+    },
+    projects:{
+        label:"All Project's",
+        href:'#'
     },
     connectLink:{
         label:"Let's Connect",

@@ -20,7 +20,7 @@ export default function Home() {
           <section className="col-span-4 sm:col-span-2 md:col-span-4 space-y-4 lg:space-y-6">
             <Experience />
             <Skills />
-            <VideoIntro />
+            {/* <VideoIntro /> */}
           </section>
           <section className="col-span-4 sm:col-span-2 md:col-span-4">
             <Projects />

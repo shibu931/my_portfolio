@@ -36,7 +36,7 @@ const Marquee: React.FC<MarqueeProps> = ({ notifications, speed = 75 }) => {
   }
 
   return (
-    <div className="relative overflow-hidden w-full h-12 bg-[#e0e0e0] dark:bg-slate-900/40 rounded">
+    <div className="relative overflow-hidden w-full h-12 bg-[#e0e0e0] dark:bg-slate-800/40 rounded">
       <style jsx>{`
         @keyframes slide {
           0% {

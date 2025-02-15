@@ -26,7 +26,7 @@ const Services = () => {
         },
     ]
   return (
-    <div className="bg-white dark:bg-slate-800 dark:border-purple-950/25 shadow-md border rounded p-5">
+    <div className="bg-white dark:bg-slate-800 dark:border-purple-950/25 shadow-md border rounded p-5" id='services'>
     <div className="flex lg:justify-between flex-col lg:flex-row">
       <h2 className="text-xl font-bold uppercase font-orbitron tracking-wider">
         Service&apos;s I Offer
