@@ -4,7 +4,7 @@ import { projects } from "@/data";
 
 const Projects = () => {
   return (
-    <div className="bg-white/25 backdrop-blur-sm dark:bg-slate-600/25 dark:border-purple-950/25 shadow-md border rounded p-5 h-full">
+    <div className="bg-white/25 backdrop-blur-sm dark:bg-slate-700/25 dark:border-purple-950/25 shadow-md border rounded p-5 h-full">
       <div className="flex lg:justify-between flex-col lg:flex-row">
         <h2 className="text-xl font-bold uppercase font-orbitron tracking-wider">
           Recent Projects

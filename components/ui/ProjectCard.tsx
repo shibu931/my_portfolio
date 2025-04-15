@@ -36,6 +36,7 @@ const ProjectCard: React.FC<Project> = ({
         </div>
         {link && (
           <Link
+          aria-label={title}
             href={link}
             className="inline-block bg-violet-500 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded transition duration-300 dark:bg-violet-600 dark:hover:bg-violet-800"
           >

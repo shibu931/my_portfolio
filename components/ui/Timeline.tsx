@@ -38,11 +38,11 @@ const Timeline = ({ experiences }: TimelineProps) => {
                   Latest
                 </span>}
               </h3>
-              <h5 className="mb-1 dark:text-gray-200 text-sm">{title}</h5>
+              <h4 className="mb-1 dark:text-gray-200 text-sm">{title}</h4>
               <p className="mb-2 text-base font-normal text-gray-600 dark:text-gray-400">
                 {description}
               </p>
-              <time className="block mb-4 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="block mb-4 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">
                 Period: {year}
               </time>
             </div>

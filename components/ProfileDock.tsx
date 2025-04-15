@@ -14,7 +14,7 @@ import {
 
 const ProfileDock = () => {
   return (
-    <div className="bg-white/25 backdrop-blur-sm dark:bg-slate-600/25 dark:border-purple-950/25 shadow-md border rounded p-4 sticky top-[70px] pb-6 lg:pb-8">
+    <div className="bg-white/25 backdrop-blur-sm dark:bg-slate-700/25 dark:border-purple-950/25 shadow-md border rounded p-4 sticky top-[70px] pb-6 lg:pb-8">
       <div className="rounded shadow mb-4 border w-full relative h-[280px] dark:border-purple-950/25 overflow-hidden">
         <BackgroundGradientAnimation />
         <div className="absolute w-full h-full flex justify-center p-2 pb-0">
@@ -22,7 +22,8 @@ const ProfileDock = () => {
             src="/assets/profile.webp"
             width={400}
             height={280}
-            alt="Banner"
+            priority
+            alt="Hypexdev"
             className="object-contain object-bottom"
           />
         </div>
@@ -57,16 +58,16 @@ const ProfileDock = () => {
       </div>
       <hr className="my-4 dark:border-white/25" />
       <div className="flex space-x-3 justify-center">
-        <a target="_blank" className="text-2xl" href="https://github.com/shibu931">
+        <a target="_blank" aria-label="Github" className="text-2xl" href="https://github.com/shibu931">
           <FaGithub />
         </a>
         <a
-          target="_blank" className="text-2xl"
+          target="_blank" aria-label="LinkedIn" className="text-2xl"
           href="https://www.linkedin.com/in/shippukumar931/"
         >
           <FaLinkedin />
         </a>
-        <a target="_blank" className="text-2xl" href="https://www.instagram.com/its.shibu__/">
+        <a target="_blank" aria-label="Instagram" className="text-2xl" href="https://www.instagram.com/its.shibu__/">
           <FaInstagram />
         </a>
       </div>

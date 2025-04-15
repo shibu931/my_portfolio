@@ -68,7 +68,7 @@ export default Navbar;
 function MobileNav() {
   return (
     <Drawer>
-      <DrawerTrigger><MenuIcon/></DrawerTrigger>
+      <DrawerTrigger aria-label="Menu Button"><MenuIcon/></DrawerTrigger>
       <DrawerContent>
         <nav>
           <ul className="mt-4 flex flex-col space-y-2">

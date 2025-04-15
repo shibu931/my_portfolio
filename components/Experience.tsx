@@ -8,7 +8,7 @@ const Experience = () => {
         { year: '2020 - 2023', company:'Clickinpedia', img:'cip.webp', title: 'Frontend Developer', description: 'Developed user-friendly and visually appealing UIs, focusing on optimizing page load speeds for improved Google Page Insights scores.', isNew:false},
       ];
   return (
-    <div className='bg-white/25 backdrop-blur-sm dark:bg-slate-600/25 dark:border-purple-950/25 shadow-md border h-auto rounded p-5'>
+    <div className='bg-white/25 backdrop-blur-sm dark:bg-slate-700/25 dark:border-purple-950/25 shadow-md border h-auto rounded p-5'>
         <h2 className='text-xl font-bold uppercase font-orbitron tracking-wider'>Work Experience</h2>
         <div className='ms-3 xl:ms-4 mt-3 sm:mt-4'>
             <Timeline experiences={experiences}/>
