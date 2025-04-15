@@ -4,11 +4,11 @@ import Image from "next/image";
 
 const Skills = () => {
   return (
-    <div className="bg-white dark:bg-slate-800 dark:border-purple-950/25 shadow-md border rounded p-5" id="skills">
+    <div className="bg-white/25 backdrop-blur-sm dark:bg-slate-600/25 dark:border-purple-950/25 shadow-md border rounded p-5 flex-1" id="skills">
       <h2 className="text-xl font-bold uppercase font-orbitron tracking-wider">
         My Skills
       </h2>
-      <div className="mt-3 sm:mt-10">
+      <div className="mt-8 sm:mt-10">
       <div className="flex flex-wrap gap-12">
           {skills.map((skill) => (
             <div key={skill.name} className='block-container w-[4.25rem] h-[4.25rem]'>

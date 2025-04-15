@@ -16,7 +16,7 @@ const page = () => {
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-400">Let's build something amazing together. I offer web development, strategic marketing, and SEO expertise to create exceptional digital experiences and grow your business.</p>
             <div className="mt-5">
-              <ContactForm/>
+                <ContactForm/>
             </div>
           </div>
         </div>

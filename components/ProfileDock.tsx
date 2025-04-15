@@ -14,12 +14,12 @@ import {
 
 const ProfileDock = () => {
   return (
-    <div className="bg-white dark:bg-slate-800 dark:border-purple-950/25 shadow-md border rounded p-4 sticky top-[70px] h-[620px]">
+    <div className="bg-white/25 backdrop-blur-sm dark:bg-slate-600/25 dark:border-purple-950/25 shadow-md border rounded p-4 sticky top-[70px] pb-6 lg:pb-8">
       <div className="rounded shadow mb-4 border w-full relative h-[280px] dark:border-purple-950/25 overflow-hidden">
         <BackgroundGradientAnimation />
         <div className="absolute w-full h-full flex justify-center p-2 pb-0">
           <Image
-            src="/assets/banner.webp"
+            src="/assets/profile.webp"
             width={400}
             height={280}
             alt="Banner"
@@ -28,7 +28,7 @@ const ProfileDock = () => {
         </div>
       </div>
       <div className="ps-1">
-        <h1 className="text-[1.35rem] font-bold uppercase mb-2 font-orbitron">
+        <h1 className="text-[1rem] font-bold uppercase my-3 font-orbitron">
           <TextGenerateEffect words="Hey, I'm Shippu Kumar" />
         </h1>
         <p className="text-base text-gray-700 dark:text-gray-400">

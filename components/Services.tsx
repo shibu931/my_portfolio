@@ -26,7 +26,7 @@ const Services = () => {
         },
     ]
   return (
-    <div className="bg-white dark:bg-slate-800 dark:border-purple-950/25 shadow-md border rounded p-5" id='services'>
+    <div className="bg-white/25 backdrop-blur-sm dark:bg-slate-600/25 dark:border-purple-950/25 shadow-md border rounded p-5" id='services'>
     <div className="flex lg:justify-between flex-col lg:flex-row">
       <h2 className="text-xl font-bold uppercase font-orbitron tracking-wider">
         Service&apos;s I Offer
@@ -38,7 +38,7 @@ const Services = () => {
         {allLinks.service.label}
       </a>
     </div>
-    <div className="mt-3 sm:mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+    <div className="mt-3 sm:mt-4 grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {
             services.map(({title,iconDark,iconLight})=>(
                 <ServiceCard key={title} title={title} iconDark={iconDark} iconLight={iconLight}/>

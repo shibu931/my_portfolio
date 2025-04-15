@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Navbar from "@/components/Navbar";
+import GridBackground  from '@/components/GridBackground';
 import { Poppins, Orbitron, Roboto } from 'next/font/google';
 
 const orbitron = Orbitron({
@@ -33,19 +34,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${orbitron.variable} ${roboto.variable} ${poppins.variable} antialiased dark:text-white dark:bg-[#0e081e]`}
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="light"
+        enableSystem
+        disableTransitionOnChange
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-          disableTransitionOnChange
-        >
+      <body
+        className={`${orbitron.variable} ${roboto.variable} ${poppins.variable} antialiased transition-colors dark:text-white dark:bg-[#0e081e]`}
+      >
           <Navbar/>
           {children}
-        </ThemeProvider>
+          <GridBackground/>
       </body>
+      </ThemeProvider>
     </html>
   );
 }

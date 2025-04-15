@@ -17,7 +17,7 @@ const ProjectCard: React.FC<Project> = ({
   technologies,
 }) => {
   return (
-    <div className="bg-violet-200/50 rounded-lg border dark:border-purple-950 shadow overflow-hidden dark:bg-slate-700 p-2 lg:p-4">
+    <div className="bg-violet-200/25 dark:bg-slate-600/25 rounded-lg border dark:border-purple-950 shadow overflow-hidden p-2 lg:p-4">
       <div className="relative w-full overflow-hidden rounded-xl lg:rounded-3xl md:h-[280px] h-[200px] mb-2 border border-slate-400 dark:border-slate-600 shadow-md">
         <div className="relative w-full h-full overflow-hidden rounded-xl lg:rounded-3xl dark:bg-[#13162d] bg-[#808ef6]">
           <img src="/assets/bg.png" alt="bg-img" />

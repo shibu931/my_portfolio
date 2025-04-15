@@ -16,18 +16,18 @@ const ServiceCard: React.FC<Service> = ({ title, iconDark, iconLight }) => {
           src={"/assets/icons/" + iconLight}
           width={256}
           height={256}
-          className="dark:hidden w-[60px] h-[60px] opacity-90"
+          className="dark:hidden w-[40px] sm:w-[60px] h-[40px] sm:h-[60px] opacity-90"
           alt={title}
         />
         <Image
           src={"/assets/icons/" + iconDark}
           width={256}
           height={256}
-          className="hidden dark:block w-[60px] h-[60px] opacity-90"
+          className="hidden dark:block w-[40px] sm:w-[60px] h-[40px] sm:h-[60px] opacity-90"
           alt={title}
         />
       </div>
-      <h3 className="font-medium text-lg text-slate-800/90  dark:text-[#eaeaea] text-center mt-3">
+      <h3 className="font-medium text-sm sm:text-lg text-slate-800/90  dark:text-[#eaeaea] text-center mt-3">
         {title}
       </h3>
     </div>

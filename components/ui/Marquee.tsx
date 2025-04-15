@@ -36,7 +36,7 @@ const Marquee: React.FC<MarqueeProps> = ({ notifications, speed = 75 }) => {
   }
 
   return (
-    <div className="relative overflow-hidden w-full h-12 bg-[#e0e0e0] dark:bg-slate-800/40 rounded">
+    <div className="relative overflow-hidden w-full h-12 bg-violet-700/10 dark:bg-violet-300/20 rounded">
       <style jsx>{`
         @keyframes slide {
           0% {
@@ -52,7 +52,7 @@ const Marquee: React.FC<MarqueeProps> = ({ notifications, speed = 75 }) => {
         ref={marqueeRef}
       >
         {extendedNotifications.map((notification, index) => (
-          <div key={index} className="py-2 px-4 h-12 flex items-center">
+          <div key={index} className="py-2 px-4 h-12 flex text-violet-800 dark:text-violet-300 font-bold items-center">
             <p>{notification.message}</p>
           </div>
         ))}

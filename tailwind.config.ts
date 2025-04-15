@@ -13,6 +13,9 @@ const config: Config = {
 			'btn-back-light': '16px 0 40px #e4e4e4',
         	'btn-back-dark': '16px 0 40px #0f172a',
 		},
+		backdropBlur:{
+			'sm': '6px',
+		},
   		colors: {
   			background: 'var(--background)',
   			foreground: 'var(--foreground)'

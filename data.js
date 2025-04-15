@@ -128,8 +128,8 @@ export const allLinks ={
         href:'#'
     },
     connectLink:{
-        label:"Let's Connect",
-        href:'/contact'
+        label:"Book a Appointment",
+        href:'https://calendly.com/shippu-hypexdev'
     }
 }
 

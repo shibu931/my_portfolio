@@ -19,12 +19,12 @@ const navigationItems = [
   },
   {
     icon:FaBriefcase,
-    href: "#services",
+    href: "/#services",
     label: "Services",
   },
   {
     icon:FaTools,
-    href: "#skills",
+    href: "/#skills",
     label: "Skills",
   },
   {
@@ -36,7 +36,7 @@ const navigationItems = [
 
 const Navbar = () => {
   return (
-    <header className="flex sticky top-0 z-50 justify-between m-4 items-center border py-3 px-4 bg-white shadow rounded-sm dark:bg-slate-800 dark:border-purple-950/25 dark:shadow-white/20">
+    <header className="flex sticky top-0 z-50 justify-between mb-2 lg:my-4 lg:mx-6 items-center border py-3 px-4 bg-white/60 backdrop-blur-md shadow rounded-sm dark:bg-slate-600/25 dark:border-purple-950/25 dark:shadow-white/20">
       <Link href="/" className="font-semibold tracking-wider text-lg">
         HypeXDev
       </Link>
