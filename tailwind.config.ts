@@ -14,7 +14,7 @@ const config: Config = {
         	'btn-back-dark': '16px 0 40px #0f172a',
 		},
 		backdropBlur:{
-			'sm': '6px',
+			'sm': '5px',
 		},
   		colors: {
   			background: 'var(--background)',

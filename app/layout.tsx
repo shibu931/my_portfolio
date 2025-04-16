@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import Navbar from "@/components/Navbar";
 import GridBackground from "@/components/GridBackground";
 import { Poppins, Orbitron, Roboto } from "next/font/google";
+import { Vortex } from "@/components/ui/Vortex";
 
 const orbitron = Orbitron({
   subsets: ["latin"],
@@ -154,7 +155,8 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
-          <GridBackground />
+          <Vortex/>
+          {/* <GridBackground /> */}
         </body>
       </ThemeProvider>
     </html>
