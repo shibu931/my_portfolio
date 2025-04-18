@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import GridBackground from "@/components/GridBackground";
 import { Poppins, Orbitron, Roboto } from "next/font/google";
 import { Vortex } from "@/components/ui/Vortex";
+import Script from "next/script";
 
 const orbitron = Orbitron({
   subsets: ["latin"],
@@ -143,6 +144,16 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(freelanceSchema) }}
         />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-SXM91KR3JR"></Script>
+        <Script>
+          {
+            `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-SXM91KR3JR');
+            `
+          }
+        </Script>
       </head>
       <ThemeProvider
         attribute="class"
